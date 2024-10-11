@@ -1,13 +1,15 @@
-public class Reptile extends Hewan {
+public class Reptile {
+    private String name;
+
     public Reptile(String name) {
-        super(name); 
+        this.name = name;
     }
 
-    public void bersuara() { 
-        System.out.println(getName() + " reptil itu mendesis.");
+    public String getName() {
+        return name;
     }
 
-    public void mencakar() {
-        System.out.println(getName() + " reptil mencakar.");
+    public void setName(String name) {
+        this.name = name;
     }
 }
