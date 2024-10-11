@@ -1,8 +1,6 @@
 public class Hewan {
-    private String name; // Encapsulation
-    private int age; // Encapsulation
+    private String name;
 
-    // Constructor Overloading
     public Hewan() {
 
         }

@@ -3,13 +3,11 @@ public class Reptile extends Hewan {
         super(name); 
     }
 
-    @Override
     public void bersuara() { 
         System.out.println(getName() + " reptil itu mendesis.");
     }
 
-    // Method tambahan untuk Reptile
-    public void crawl() {
+    public void mencakar() {
         System.out.println(getName() + " reptil mencakar.");
     }
 }

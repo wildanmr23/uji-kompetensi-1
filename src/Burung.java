@@ -3,7 +3,7 @@ public class Burung extends Hewan {
         super(name);
     }
 
-    public void bersuara() { // Method Overriding
+    public void bersuara() {
         System.out.println(getName() + " si burung berkicau.");
     }
 }
