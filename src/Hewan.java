@@ -18,6 +18,6 @@ public class Hewan {
     }
 
     public void bersuara() {
-        System.out.println("Beberapa Jenis Suara Hewan");
+        System.out.println("Beberapa Jenis Nama dan Suara Hewan: ");
     }
 }
